@@ -100,7 +100,9 @@ iex(1)>
 ### **Usage** Nx with IEx
 
 ```sh
-$ docker-compose run --rm app iex -S mix
+$ docker-compose up -d
+
+$ docker-compose exec app iex -S mix
 
 Creating nx_sandbox_app_run ... done
 Erlang/OTP 24 [erts-12.0.2] [source] [64-bit] [smp:4:4] [ds:4:4:10]   [async-threads:1] [jit]
