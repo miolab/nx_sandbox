@@ -2,6 +2,8 @@
 
 [![miolab](https://circleci.com/gh/miolab/nx_sandbox.svg?style=svg)](https://github.com/miolab/nx_sandbox)
 
+Code sandbox for **Nx**.
+
 > Nx is a multi-dimensional tensors library for Elixir with multi-staged compilation to the CPU/GPU.  
 > (https://github.com/elixir-nx/nx)
 
