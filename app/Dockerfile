@@ -1,5 +1,8 @@
 FROM elixir:1.12.1-slim
 
+COPY ./mix.exs /usr/src/app/
+COPY ./mix.lock /usr/src/app/
+
 WORKDIR /usr/src/app
 
 RUN apt-get update -y && \
